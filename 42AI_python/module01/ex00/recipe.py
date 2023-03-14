@@ -41,5 +41,5 @@ class Recipe:
 		text += '[description: ' + self.description + ']'
 		return text
 
-recipe1  = Recipe('salad', 2, 15, ['arugula', 'vinegar', 'lettuce'], 'starter')
-print(str(recipe1))
+# recipe1  = Recipe('salad', 2, 15, ['arugula', 'vinegar', 'lettuce'], 'starter')
+# print(str(recipe1))
