@@ -1,6 +1,7 @@
 .DS_Store
 review
 Miniconda3-latest-MacOSX-x86_64.sh
+bootcamp_data_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

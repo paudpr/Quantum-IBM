@@ -1,4 +1,5 @@
 import sys
+import string
 
 def text_analyzer(text):
 	if isinstance(text, str) == False:
@@ -7,7 +8,7 @@ def text_analyzer(text):
 		print("The text contains " + str(len(text)) + " character(s):")
 		print(str(sum(1 for c in text if c.isupper())) + " upper letter(s)")
 		print(str(sum(1 for c in text if c.islower())) + " lower letter(s)")
-		print(str(sum(1 for c in text if c in ".,:;?!")) + " punctuation mark(s)")
+		print(str(sum(1 for c in text if c in string.punctuation)) + " punctuation mark(s)")
 		print(str(sum(1 for c in text if c == ' ')) + " space(s)")
 	
 if len(sys.argv) > 2:
